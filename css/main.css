@@ -1881,7 +1881,7 @@
 		position: absolute;
 		right: 10px;
 		top: 10px;
-		background: url(images/ajax-loader.gif);
+		
 		width: 43px;
 		height: 11px;
 		text-indent: -9999em;
@@ -1913,7 +1913,7 @@
 		    height: 120px;
 		    margin-right: 10px;
 		    background-color: #efefef;
-		    background-image: url(../../images/icon-collection.jpg);
+		    background-image: url(../images/icon-collection.jpg);
 		    background-repeat: no-repeat;   
 		    vertical-align: top;
 
@@ -3011,7 +3011,7 @@
 
 	#banner {
 		padding: 8em 0 9em 0;
-		background-image: url(../../images/banner-img.png);
+		background-image: url(../images/banner-img.png);
 		background-size: cover;
 		background-position: bottom;
 		background-attachment: fixed;
