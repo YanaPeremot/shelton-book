@@ -1,6 +1,10 @@
 
 /* custon style */
 
+#nav a{
+	border-radius: 30px;
+}
+
 #nav a:hover{
 	font-weight: bold;
 	/*box-shadow: inset 0 0 1em;
@@ -8,20 +12,32 @@
 			border-radius: 10px;
 			border: solid 2px #8dcca9;*/
 }
-
-#load {
-	display: none;
-	position: absolute;
-	right: 10px;
-	top: 10px;
-
-	width: 43px;
-	height: 11px;
-	text-indent: -9999em;
+a.button-center{
+	width: 200px;
+	padding: 0.2em;
+	display: block;
+	margin: 0 auto;
 }
 
-#nav a{
-	border-radius: 30px;
+input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	input[type="tel"],
+	select,
+	textarea {
+		background: #fff !important;
+		color: #555 !important;
+	}
+
+#choice .button{
+	font-size: 0.9em;
+	font-weight: bold; 
+}
+
+.button.read {
+	color: #fff!important;
+	font-size: 1.1em;
+	font-weight: bold;
 }
 
 .icon-collection {
@@ -35,6 +51,9 @@
 	background-repeat: no-repeat;   
 	vertical-align: top;
 
+}
+.form h3{
+	margin: 1em;
 }
 
 .skills{
@@ -57,14 +76,22 @@
 	background-position: -137px -268px;
 }
 
-#bookpart {
-}
-
 .setExperience{
 
 	margin: 2em auto 3em;
 	border: solid 2px #63F29C;
 	border-radius: 10px;
+}
+
+.valueBox{
+	margin: 0 auto;
+	text-align: center;
+	max-width: 20%;
+	border: solid 5px #7ec89e; /*dbdbdb;*/
+	border-radius: 20px;
+	margin-bottom: 2em;
+	padding: 0.1em;
+
 }
 
 .image.image-dice{
@@ -73,6 +100,14 @@
 	margin: 1em auto;
 	border-radius: 20px;
 } 
+
+.footer-book{
+		position: absolute !important;
+		bottom: 0px; 
+		width: 100%;
+		min-height: 60px;
+	}
+
 
 /* Modal window */
 
