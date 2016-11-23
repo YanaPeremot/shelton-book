@@ -13,11 +13,12 @@ function throwdice(){
 
 function change_src(value,numberDice){
 	var imgpath=new String();
-	imgpath="images/dice/dice";
+	imgpath="../images/dice/dice";
 	var imgext=new String();
 	imgext=".png";
 	
 	$("#dice-img"+numberDice).attr("src",""+imgpath+value+imgext);
+	console.log(imgpath);
 }
 
 $(document).ready(function() {
